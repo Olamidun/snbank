@@ -1,0 +1,6 @@
+This is a python script for banking system using the pthon file system. The script has the following features:
+1. a staff is able to login using username and password which are both crosschecked with the predefined staff details stored in a staff.txt file
+2. once a staff logs in successfully, a user session is created which is saved in the user session.txt file the program asks if the staff wants to create an account or if the staff wants to check account details(which can only be displayed if the staff has an account), or if the user wants to log out
+3. if the staff chooses to create an account, a couple of details(excluding the account number, the account number is generated automatically by the program) are asked from the staff all of which serve as the account details stored in customer.txt file.
+4. if the staff chooses to check account details, the program asks for staff's account number and then crosschecks the account number with the the one in the customer.txt file and the appropriate account details is shown.
+5. if the user chooses to log out, the user session file is deleted and the program as if the user wants to log in again or close the program, if the user logs in again, features 1-4 are repeated and if chooses to close the app, the program closes. 
